@@ -72,9 +72,11 @@ const Home = async () => {
           Populares
         </h2>
         <div className="flex gap-4 overflow-auto [&::-webkit-scrollbar]:hidden">
-          {popularBarbershops.map((barbershop) => (
-            <BarbershopItem key={barbershop.id} barbershop={barbershop} />
-          ))}
+          <div className="space-y-3">
+            {popularBarbershops.map((barbershop) => (
+              <BarbershopItem key={barbershop.id} barbershop={barbershop} />
+            ))}
+          </div>
         </div>
       </div>
 
