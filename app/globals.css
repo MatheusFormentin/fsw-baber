@@ -47,3 +47,61 @@
     @apply bg-background text-foreground h-full;
   }
 }
+
+@media (min-width: 768px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    gap: 10px;
+  }
+
+  .img{
+    max-width: 150px;
+    object-fit: cover;
+  }
+
+  .title{
+    margin-left: 15px;
+  }
+
+  .calender {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .agend{
+    max-width: 50%;
+    min-width: 50%;
+    display: flex;
+    gap: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    gap: 10px;
+  }
+
+  .img{
+    max-width: 200px;
+    object-fit: cover;
+  }
+
+  .title{
+    margin-left: 15px;
+  }
+
+  .calender {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .agend{
+    max-width: 50%;
+    min-width: 50%;
+    display: flex;
+    gap: 12px;
+  }
+}

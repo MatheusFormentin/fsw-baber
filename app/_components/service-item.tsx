@@ -167,9 +167,9 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
   return (
     <>
       <Card>
-        <CardContent className="flex items-center gap-3 p-3">
+        <CardContent className="card flex items-center gap-3 p-3">
           {/* IMAGE */}
-          <div className="relative max-h-[110px] min-h-[110px] min-w-[110px] max-w-[110px]">
+          <div className="img relative max-h-[110px] min-h-[110px] min-w-[110px] max-w-[110px]">
             <Image
               src={service.imageUrl}
               alt={service.name}
@@ -178,7 +178,7 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
             />
           </div>
           {/* DIREITA */}
-          <div className="space-y-">
+          <div className="config space-y-1.5">
             <h3 className="text-sm font-semibold">{service.name}</h3>
             <p className="text-sm text-gray-400">{service.description}</p>
             {/* PRICE E BUTTON */}
@@ -203,9 +203,9 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
                 </Button>
                 <SheetContent className="px-0">
                   <SheetHeader>
-                    <SheetTitle>Fazer Reserva</SheetTitle>
+                    <SheetTitle className="title">Fazer Reserva</SheetTitle>
                   </SheetHeader>
-                  <div className="border-b border-solid py-5">
+                  <div className="calender border-b border-solid py-5">
                     <Calendar
                       mode="single"
                       locale={ptBR}
