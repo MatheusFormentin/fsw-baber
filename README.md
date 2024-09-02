@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Matheus Formentin│ Portfolio
 
-## Getting Started
+# Imagem do Projeto
+![FswBarber](https://github.com/user-attachments/assets/055154b6-6ea6-4f49-bbb6-636eaa702837)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Um site voltado para clientes de barbearias fazerem suas reservas na barbearia de sua escolha, podendo filtrar pelos servidos de cada uma e a mais próxima, além de conhecer novas barbearias.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias e Ferramentas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O site foi construído utilizando uma variedade de tecnologias e ferramentas modernas, destacando minha experiência e versatilidade no desenvolvimento web:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **HTML & CSS**: Estruturação e estilização responsiva do site.
+- **Typescript**: Utilizado para criar interatividade e funcionalidades dinâmicas.
+- **Nexts.js**: Framework para facilitar o projeto.
+- **Tawildcss**: Para efeitos visuais interativos em algumas seções do site.
+- **PostgreSQL**: Banco de dados usado para armazenar informações.
+- **Google API**: Ultilizado para realizar logins no site.
 
-## Learn More
+## Características do Site
 
-To learn more about Next.js, take a look at the following resources:
+### Design e Usabilidade
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Design Responsivo**: Totalmente adaptável a diferentes tamanhos de tela, garantindo uma experiência de usuário consistente em dispositivos móveis e desktops.
+- **Animações Interativas**: Utilizando AOS e Particles.js, o site proporciona uma experiência visualmente atraente e interativa.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Funcionalidades
 
-## Deploy on Vercel
+- **Formulário de Contato Integrado**: Permite aos visitantes enviar mensagens diretamente através do site.
+- **Botões de Acesso Rápido**: Inclui botões para WhatsApp, alternância de temas e retorno ao topo, melhorando a navegabilidade e acessibilidade.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### SEO e Performance
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Otimizado para SEO**: Meta tags e descrições cuidadosamente escolhidas para melhorar a visibilidade do site em motores de busca.
+- **Alto Desempenho**: O código foi otimizado para carregamento rápido e desempenho eficiente.
+
+## Contribuições e Contato
+
+Estou aberto a colaborações e feedback. Se você tiver sugestões ou quiser discutir possíveis projetos, por favor, entre em contato comigo:
+
+- **Email**: [Formentinmatheus@gmail.com](#)
+- **LinkedIn**: [Matheus Formentin](https://www.linkedin.com/in/matheus-formentin-5b3b8b292/)
+- **WhatsApp**: [(51) 991052719](https://wa.me/5547992164395)
+
+Obrigado por visitar meu portfólio!
